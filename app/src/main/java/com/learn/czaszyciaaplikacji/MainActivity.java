@@ -19,5 +19,8 @@ public class MainActivity extends AppCompatActivity {
         licznik++;
         licznikTextView.setText(licznik.toString());
     }
-
+    public void zmiejsz(View view){
+        licznik--;
+        licznikTextView.setText(licznik.toString());
+    }
 }
