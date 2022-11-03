@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        licznikTextView = findViewById(R.id.licznikTextView)
+        licznikTextView = findViewById(R.id.licznikTextView);
     }
     public void zwieksz(View view){
         licznik++;
